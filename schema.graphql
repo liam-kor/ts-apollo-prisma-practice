@@ -4,8 +4,12 @@
 
 scalar DateTime
 
+type Mutation {
+  createUser(email: String!, password: String!): User!
+}
+
 type Query {
-  ok: Boolean!
+  users: [User!]
 }
 
 type User {
