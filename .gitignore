@@ -1,0 +1,12 @@
+node_modules/
+dist/
+coverage/
+yarn-error.log
+package-lock.json
+.DS_Store
+
+.env
+dotenv/prod.env
+dotenv/.env
+prisma/.env
+generated
